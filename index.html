@@ -41,6 +41,216 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
+				 <h1>Planning and executing a focused Sprint that actually addresses a blocking area and helps move an Open Source Project forward</h1>
+				 <aside class="notes">
+
+				 </aside>
+				</section>
+
+				<section>
+					<p>Lots of people want to help with an open source project. People have heard that sprints can help with that. But what makes a sprint effectively accomplish moving a project forward?</p>
+					<aside class="notes">
+
+					</aside>
+				</section>
+
+				<section>
+					<h3>We will discuss this in general, using getting Drupal 8 released as an example</h3>
+					<ul>
+	         <li>Background: Drupal 8 release plans</li>
+	         <li>Examples of successful sprints: Ghent, New Jersey</li>
+	         <li>Planning the sprint</li>
+	         <li>What should happen at the sprint</li>
+	         <li>D8 Accelerate Program</li>
+          </ul>
+          <aside class="notes">
+
+          </aside>
+				</section>
+
+				<section>
+					<h2>structure of the talk: 30 minutes presentation, 30 mintues discussion. please write down your thoughts and questions during, so you will remember them.</h2>
+					<aside class="notes">
+
+					</aside>
+        </section>
+
+        <section>
+        <h1>audience</h1>
+        <aside class="notes">
+        	<ul>
+        		<li>decision makers in organizations that want to do something to help release happen faster, want to host or sponsor a sprint</li>
+        		<li>local organizers that want to do something to help release happen faster, want to know if them holding a sprint would help, and how it might be different than organizing their typical events. or thinking about adding a focused sprint to a camp.</li>
+        		<li>contributors want to know what happens at this kind of sprint, want to know if attending is something they should try and do, and what it would be like</li>
+        		<li>contributors to other free software projects who want insight into what the Drupal is doing and how it works</li>
+        		<li>organizers of past focused sprints who want to add their knowledge</li>
+        		<li>contrib maintainers who are thinking about D8 upgrade or feature sprints</li>
+        		<li>project managers who think their skills are not needed, but who could contribute to getting release to happen faster</li>
+        		<li>* not-yet contributors, have heard of sprints, want to know what the big deal is about sprints</li>
+        		<li>* business, sales, and marketing people who are not making the money decisions</li>
+        	</ul>
+        	<p>* those people are welcome but not might be getting what they thought they would get out of attending the talk</p>
+        </aside>
+        </section>
+
+        <section>
+        	<h1>Defining moving an open source project forward</h1>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h1>Defining sprint</h1>
+        	<p>focusing for a period of time</p>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>example:</h3>
+        	<ul>
+        		<li>drupalcon: giant, small focus groups working to effect short term goals toward release, *AND* large groups investing in new contributors which is important for the long term life of the project</li>
+        		<li>some things will apply there, but that is not the subject of this talk</li>
+        		<li>[picture]</li>
+        	</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>example</h3>
+        	<ul>
+        		<li>for info on what it takes to have a sprint focused on getting new contributors involved see: … ? a new blog Cathy writes? or the drupalcon meta</li>
+        		<li>for more generic info d.o/core-mentoring/sprint-planning</li>
+        		<li>[picture]</li>
+        	</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>Planning and executing a focused Sprint that actually addresses a blocking area and helps move an Open Source Project forward</h3>
+        	<p>[picture]</p>
+        	<aside class="notes"> </aside>
+        </section>
+
+				<section>
+					<h3>Background: Drupal 8 release plans</h3>
+					<ul>
+						<li>timeline, years</li>
+						<li>beta</li>
+						<li>beta evaluation?</li>
+						<li>release conditions, link to issue</li>
+						<li>criticals</li>
+						<li>majors</li>
+					</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>Planning and executing a focused Sprint that actually addresses a blocking area and helps move an Open Source Project forward</h3>
+        	<p>[picture]</p>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>Purpose</h3>
+        	<ul>
+        		<li>people planning sprints this summer, hoping to help get D8 released will know the things that will help them with their goal</li>
+        		<li>provoke conversation</li>
+        		<li>give some opinions about what makes a successful sprints that other people rarely say out loud</li>
+        		<li>collectively learn more things about what makes sprints effective from the conversation part</li>
+        		<li>longer term goals</li>
+        		<ul>
+        			<li>contrib</li>
+        			<li>8.1.x</li>
+        		</ul>
+        	</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>Agreed basics, community consensus is a good idea, non controversial things</h3>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>Venue</h3>
+        	<ul>
+        		<li>dedicated space (not starbucks)</li>
+        		<li>electricity: power strips at each table</li>
+        		<li>tables that are for groups facing each other</li>
+        		<li>movable chairs</li>
+        		<li>drinks: water, coffee, tea, soda, if have beer, have craft non-alcoholic drinks</li>
+        		<li>natural light</li>
+        		<li>large writing board: chalk board, white board, flip chart, giant post-its</li>
+        		<li>climate control: air conditioning, windows that open</li>
+        		<li>parking</li>
+        	</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>internet (really the most important thing ever)</h3>
+        	<ul>
+        		<li>wifi or wired</li>
+        		<li>backup wifi</li>
+        		<li>freenode</li>
+        		<li>tell DA infra (so no false positive DOS indicator)</li>
+        		<li>testbots, have someone who can start more. testing delays suck and frustrate sprinters.</li>
+        	</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>food (snacks and lunch)</h3>
+        	<ul>
+        		<li>in the venue, or venue which allows bringing food in</li>
+        		<li>deconstructed food with ingredients labeled, or vegan, vegetarian, omnivore</li>
+        		<li>meals available for other dietary restrictions (gluten free, halal, etc.)</li>
+        		<li>close to food (dinner)</li>
+        	</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>summary: convenience and quality matters</h3>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>Community building</h3>
+        	<ul>
+        		<li>continuity of group between sprints</li>
+        		<li>make it fun: organize things in physical space. papers. posters. stickers.</li>
+        		<li>outings around the sprint -- dinners together, local tours, etc.</li>
+        		<li>t-shirts or more lighthearted identifiers (we've had electrical tape, aprons, leis, and even bunny ears recently) for sprint leads and participants</li>
+        		<li>chocolate or specialties from the country people are from</li>
+        		<li>build some local color into the schedule for the out of town people</li>
+        	</ul>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3>looking back at these specifc events greatly informed the content of this talk.  Both of us attended the vast majority of them. </h3>
+        	<p>[[one slide with logo montage]</p>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<h3></h3>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<aside class="notes"> </aside>
+        </section>
+
+        <section>
+        	<aside class="notes"> </aside>
+        </section>
+
+				<section>
 					<h1>Reveal.js</h1>
 					<h3>The HTML Presentation Framework</h3>
 					<p>
