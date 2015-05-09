@@ -53,6 +53,8 @@ body {
   font-size: 1.6em;
   color: #F3D483;
   background-color: #095f8f;
+  padding: 0.2em;
+  border: 0.05em solid #F3D483;
 }
 
 .reveal h3 {
@@ -60,6 +62,9 @@ body {
 
 .reveal h4 {
   font-size: 1em; }
+
+.reveal h4.subtitle {
+  color: #000; }
 
 .reveal h1 {
   text-shadow: none; }
