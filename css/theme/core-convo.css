@@ -240,6 +240,10 @@ body {
   border: 4px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
+.reveal .photo-credit {
+  font-size: 25%;
+}
+
 .reveal a img {
   -webkit-transition: all 0.15s linear;
   -moz-transition: all 0.15s linear;
