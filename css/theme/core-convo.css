@@ -100,6 +100,18 @@ body {
   margin: 20px 0;
   line-height: 1.3; }
 
+.reveal .left-of-image {
+  font-size: 60%;
+  text-align: left;
+  display: block;
+  max-width: 40%;
+  float: left;
+}
+
+.reveal .right-of-text {
+  float: right;
+}
+
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
   max-width: 95%;
@@ -234,7 +246,7 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
-.reveal section .boxed img {
+.reveal section img.boxed  {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
   border: 4px solid #fff;
