@@ -65,6 +65,11 @@ body {
 
 .reveal h4.subtitle {
   color: #000; }
+.reveal h4.subtitle-red {
+  color: #000;
+  background-color: red;
+  border: 0.05em solid #F3D483;
+}
 
 .reveal h1 {
   text-shadow: none; }
