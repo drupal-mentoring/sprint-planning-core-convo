@@ -268,7 +268,15 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal .photo-credit {
-  font-size: 25%;
+  font-size: 35%;
+  position: absolute;
+  bottom: -500px;
+  right: 0;
+}
+
+.reveal .photo-credit a {
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .reveal a img {
