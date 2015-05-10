@@ -14,6 +14,12 @@ body {
   background: #222;
   background-color: #222; }
 
+.reveal .content-box {
+    padding: 1.5em 2em 1em;
+    background: #000000;
+    opacity: 0.75;
+}
+
 .reveal {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 38px;
@@ -78,9 +84,13 @@ body {
  * FOOTER
  *********************************************/
 .footer .branding--logo {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  left: 0;
+  margin: 0;
+  padding: 1em 1em 0 1em;
   display: inline-block;
   float: left;
-  margin-left: 1em;
   font-size: 0.5em;
   position: absolute;
   bottom: 0em; }
