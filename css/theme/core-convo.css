@@ -19,6 +19,9 @@ body {
     background: #000000;
     opacity: 0.75;
 }
+.reveal .content-box h3 {
+    color: #fff;
+}
 
 .reveal {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
