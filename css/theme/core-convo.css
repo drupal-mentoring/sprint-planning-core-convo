@@ -130,6 +130,10 @@ body {
   float: right;
 }
 
+.reveal img.white-background-img {
+  background: #fff;
+}
+
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img, .reveal video, .reveal iframe {
   max-width: 95%;
