@@ -290,6 +290,11 @@ body {
   right: 0;
 }
 
+.reveal .photo-credit-top {
+  font-size: 35%;
+  background: #000;
+}
+
 .reveal .photo-credit a {
   color: #ffffff;
   font-weight: bold;
