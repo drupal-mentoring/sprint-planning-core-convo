@@ -85,7 +85,7 @@ body {
 
 .showHeader #myHead {
   display: block;
-  padding: 0 0 .25em 0.5em;
+  padding: 0.25em .25em .25em 0.5em;
 }
 #myHead {
   display: none;
